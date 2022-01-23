@@ -21,26 +21,26 @@ Thanks to [doanhxd](https://github.com/doanhxd) for [their Vostro 15-3568 setup]
 
 | | Specifications | macOS Big Sur Compatibility |
 | ---: | :--- | :--- |
-| ``Chipset`` | Intel Kaby Lake | No issues |
-| ``CPU`` | Intel Core i7-7500U Processor, 2 Cores / 4 Threads, 2.7Hz / 3.5GHz, 4MB Cache | No issues |
-| ``Memory`` | 8GB dual-channel DDR4-2133MHz, up to 16GB | No issues |
-| ``GPU`` | Intel HD Graphics 620 | No issues |
+| ``Chipset`` | Intel Kaby Lake |  |
+| ``CPU`` | Intel Core i7-7500U Processor, 2 Cores / 4 Threads, 2.7Hz / 3.5GHz, 4MB Cache |  |
+| ``Memory`` | 8GB dual-channel DDR4-2133MHz, up to 16GB | |
+| ``GPU`` | Intel HD Graphics 620 |  |
 | ``dGPU`` | AMD Radeon HD 8550M/R5 M230 (2GB GDDR3 VRAM) | Not supported. Disabled with boot-args `-wegnoegpu` |
-| ``Storage`` | Kingmax SATA SSD 240GB + 1TB HDD | No issues |
-| ``Screen`` | 15.6" Full HD 60Hz, 1920 x 1080 TN |  No issues |
-| ``Webcam`` | Integrated HD Webcam |  No issues |
-| ``Ethernet`` | RJ45 RTL8111 Realtek Ethernet | No issues |
+| ``Storage`` | Kingmax SATA SSD 240GB + 1TB HDD |  |
+| ``Screen`` | 15.6" Full HD 60Hz, 1920 x 1080 TN | |
+| ``Webcam`` | Integrated HD Webcam |  |
+| ``Ethernet`` | RJ45 RTL8111 Realtek Ethernet |  |
 | ``WiFi`` | Intel Wireless-AC 3165 | No issues, using [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) |
 | ``Bluetooth`` | Intel | No issues, using [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware) |
 | ``Input & Output`` | USB 3.0 (USB-A) x2 + USB 2.0 (USB-A) x1 | No issues, you can build your own mapping with [USBToolBox](https://github.com/USBToolBox/tool) on Windows if the provided kext doesn't work |
-| - | HDMI 1.4 | No issues |
-| - | VGA | No issues |
-| ``Soundboard`` | Realtek ALC256 (ALC3246) | No issues |
+| - | HDMI 1.4 |  |
+| - | VGA |  |
+| ``Soundboard`` | Realtek ALC256 (ALC3246) |  |
 | ``Battery`` | I removed it | I don't know |
-| ``Keyboard`` | - | No issues |
+| ``Keyboard`` | - |  |
 | ``Touchpad`` | Dell Touchpad | No issues. ACPI should be patched to enable gesture |
 | ``Dimensions`` | 23.65mm x 260mm x 380mm | ACPI patches won't help with these |
 | ``Weight`` | 2.29 kg | |
-| ``Power`` | 65W Power Adapter | - |
+| ``Power`` | 65W Power Adapter | |
 
 
