@@ -2,12 +2,14 @@
 Thanks to [doanhxd](https://github.com/doanhxd) for [their Vostro 15-3568 setup](https://github.com/doanhxd/Dell-Vostro-3568-Hackintosh), mine is partly based on it.
 
 # Intro
-![About this Mac](https://user-images.githubusercontent.com/92439990/150672996-0018f74e-0b67-4c6c-b3b6-0a96460ad7eb.png)
+![About this Mac](https://user-images.githubusercontent.com/92439990/151695035-5117bc17-0d36-4188-bf1d-0a309a932cc1.png)
 
 |              | Version         |
 |-------------:|:----------------|
 | ``OpenCore`` | 0.7.7 (RELEASE) |
-| ``Big Sur``  | 11.6.2 (20G314) |
+| ``Big Sur``  | 12.2 (21D49)    |
+
+(This config works with macOS 11 too)
 
 # Disclaimer
 - Reminder that this is only a base for your OpenCore setup, it is strongly recommended that you follow the entire OpenCore guide [here](https://dortania.github.io/OpenCore-Install-Guide/)
