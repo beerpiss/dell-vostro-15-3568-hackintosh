@@ -7,7 +7,7 @@ Thanks to [doanhxd](https://github.com/doanhxd) for [their Vostro 15-3568 setup]
 |              | Version         |
 |-------------:|:----------------|
 | ``OpenCore`` | 0.7.7 (RELEASE) |
-| ``Big Sur``  | 12.2 (21D49)    |
+| ``Monterey``  | 12.2 (21D49)    |
 
 (This config works with macOS 11 too)
 
