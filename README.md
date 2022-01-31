@@ -28,7 +28,7 @@ Refer to [OpenCore Post-Install guide](https://dortania.github.io/OpenCore-Post-
 
 - Copy the EFI from your OpenCore USB over to your EFI partition (no shit)
 - Fix sleep. I have already included a FixShutdown SSDT, but if this does not work, you'll have to build one yourself.
-- Disable CFG Lock (my offset is `0x4C7`, found on v3.11.0, though my BIOS is significantly older, as I have never upgraded it once since I bought it in 2016).
+- Disable CFG Lock: my offset is `0x4C7`, found on v3.11.0, though my BIOS is significantly older (v2.6.0).
 
 # Hardware
 
