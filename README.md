@@ -1,5 +1,9 @@
 # dell-vostro-15-3568-hackintosh
-Thanks to [doanhxd](https://github.com/doanhxd) for [their Vostro 15-3568 setup](https://github.com/doanhxd/Dell-Vostro-3568-Hackintosh), mine is partly based on it.
+Special thanks to:
+- [acidanthera](https://github.com/acidanthera) for making this Hackintosh possible in the first place
+- [dortania people](https://github.com/orgs/dortania/people) for the [OpenCore guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [dreamwhite](https://github.com/dreamwhite) for their [CFG Lock disabling guide](https://github.com/dreamwhite/bios-extraction-guide/tree/master/Dell)
+- [doanhxd](https://github.com/doanhxd) for [their Vostro 15-3568 setup](https://github.com/doanhxd/Dell-Vostro-3568-Hackintosh), mine is partly based on it.
 
 # Intro
 ![About this Mac](https://user-images.githubusercontent.com/92439990/151695035-5117bc17-0d36-4188-bf1d-0a309a932cc1.png)
@@ -7,16 +11,22 @@ Thanks to [doanhxd](https://github.com/doanhxd) for [their Vostro 15-3568 setup]
 |              | Version         |
 |-------------:|:----------------|
 | ``OpenCore`` | 0.7.7 (RELEASE) |
-| ``Monterey``  | 12.2 (21D49)    |
+| ``Monterey`` | 12.2 (21D49)    |
 
 (This config works with macOS 11 too)
 
 # Disclaimer
+- I don't care what you do with it, except for commercial purposes. Refer to [Psystar's case](https://en.wikipedia.org/wiki/Psystar_Corporation).
 - Reminder that this is only a base for your OpenCore setup, it is strongly recommended that you follow the entire OpenCore guide [here](https://dortania.github.io/OpenCore-Install-Guide/)
 - There will be differences probably even for the same line of machine, however if you're feeling lazy I guess you can just copy the config, just remember to add in information such as the MLB or the ROM in `PlatformInfo`.
 
-# Notes
-Don't use case-sensitive APFS if you want to use Steam or Adobe tools.
+# Issues and notes
+- Sleep
+  - Trackpad/mouse wake doesn't work
+  - Sometimes require a keyboard+power combo to wake up. Darkwake issue that I haven't got around to fixing.
+- Brightness is controlled by Fn+S and Fn+B rather than Fn+F11 and Fn+F12
+- Don't use case-sensitive APFS if you want to use Steam or Adobe tools. 
+  - If you've selected a case-sensitive file system, it is still possible to run Steam with [this guide](https://davejansen.com/how-to-run-steam-when-your-macos-drive-is-case-sensitive/), but Adobe apps can't be installed.
 
 # Pre-install tasks
 - BACK UP YOUR STUFF, ESPECIALLY YOUR SSH KEYS, DON'T BE THIS GUY
@@ -44,7 +54,7 @@ Refer to [OpenCore Post-Install guide](https://dortania.github.io/OpenCore-Post-
 | ``Webcam``                                | Integrated HD Webcam                                                          |                                                                                                                                               |
 | ``Ethernet``                              | RJ45 RTL8111 Realtek Ethernet                                                 |                                                                                                                                               |
 | ``WiFi``                                  | Intel Wireless-AC 3165                                                        | Using [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)                                                                |
-| ``Bluetooth``                             | Intel                                                                         | Using [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware). AirDrop may be a little finnicky, but should work |
+| ``Bluetooth``                             | Intel                                                                         | Using [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware). |
 | ``Input & Output``                        | USB 3.0 (USB-A) x2 + USB 2.0 (USB-A) x1<br>HDMI 1.4<br>VGA                    | No issues, you can build your own mapping with [USBToolBox](https://github.com/USBToolBox/tool) on Windows if the provided kext doesn't work  |
 | ``Soundboard``                            | Realtek ALC256 (ALC3246)                                                      |                                                                                                                                               |
 | ``Battery``                               | I removed it                                                                  | I don't know                                                                                                                                  |
