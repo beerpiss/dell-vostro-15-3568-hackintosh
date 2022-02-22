@@ -4,14 +4,16 @@ Special thanks to:
 - [dortania people](https://github.com/orgs/dortania/people) for the [OpenCore guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [dreamwhite](https://github.com/dreamwhite) for their [CFG Lock disabling guide](https://github.com/dreamwhite/bios-extraction-guide/tree/master/Dell)
 - [doanhxd](https://github.com/doanhxd) for [their Vostro 15-3568 setup](https://github.com/doanhxd/Dell-Vostro-3568-Hackintosh), mine is partly based on it.
+- [Mili](https://www.youtube.com/channel/UCVh47EKH9VLresRqiYi9txw) for the wallpaper and the goated music :pray:
 
 # Intro
-![About this Mac](https://user-images.githubusercontent.com/92439990/151695035-5117bc17-0d36-4188-bf1d-0a309a932cc1.png)
+![Screen Shot 2022-02-22 at 20 02 49](https://user-images.githubusercontent.com/92439990/155137865-0253dddf-e0a0-4390-9ed3-c7bde36adc6a.png)
+
 
 |              | Version         |
 |-------------:|:----------------|
-| ``OpenCore`` | 0.7.7 (RELEASE) |
-| ``Monterey`` | 12.2 (21D49)    |
+| ``OpenCore`` | 0.7.8 (RELEASE) |
+| ``Monterey`` | 12.2.1 (21D49)  |
 
 (This config works with macOS 11 too)
 
@@ -58,7 +60,7 @@ Refer to [OpenCore Post-Install guide](https://dortania.github.io/OpenCore-Post-
 | ``Bluetooth``                             | Intel                                                                         | Using [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware). |
 | ``Input & Output``                        | USB 3.0 (USB-A) x2 + USB 2.0 (USB-A) x1<br>HDMI 1.4<br>VGA                    | No issues, you can build your own mapping with [USBToolBox](https://github.com/USBToolBox/tool) on Windows if the provided kext doesn't work  |
 | ``Soundboard``                            | Realtek ALC256 (ALC3246)                                                      |                                                                                                                                               |
-| ``Battery``                               | I removed it                                                                  | I don't know                                                                                                                                  |
+| ``Battery``                               | 40Wh Dell battery                                                             | About 2 hours with bad power management                                                                                                                               |
 | ``Keyboard``                              | -                                                                             |                                                                                                                                               |
 | ``Touchpad``                              | Dell Touchpad                                                                 | No issues. ACPI should be patched to enable gesture                                                                                           |
 | ``Dimensions``<br>``Weight``<br>``Power`` | 23.65mm x 260mm x 380mm<br>2.29kg<br>65W Power Adapter                        | ACPI patches won't help with these                                                                                                            |
