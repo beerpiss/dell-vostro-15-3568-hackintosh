@@ -27,7 +27,7 @@ Special thanks to:
   - Trackpad/mouse wake doesn't work
   - Sometimes require a keyboard+power combo to wake up. Darkwake issue that I haven't got around to fixing.
 - Brightness is controlled by Fn+S and Fn+B rather than Fn+F11 and Fn+F12
-- Moving the cursor with the trackpad works, but I don't know how are you supposed to click :moyai:
+- ~~Moving the cursor with the trackpad works, but I don't know how are you supposed to click :moyai:~~ Just put in a battery smh my head
 - Don't use case-sensitive APFS if you want to use Steam or Adobe tools. 
   - If you've selected a case-sensitive file system, it is still possible to run Steam with [this guide](https://davejansen.com/how-to-run-steam-when-your-macos-drive-is-case-sensitive/), but Adobe apps can't be installed.
 
